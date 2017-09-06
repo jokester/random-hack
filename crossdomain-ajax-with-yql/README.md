@@ -6,6 +6,8 @@ without restriction of same-origin policy.
 Internally, it uses jsonp API of [Yahoo Query Language (YQL)](https://developer.yahoo.com/yql/guide/).
 This (not new) idea is learnt from [jquery.xdomainajax.js plugin by JAMES PADOLSEY](https://j11y.io/javascript/cross-domain-requests-with-jquery/).
 
+FIXME: may be able to POST with [this post](http://christianheilmann.com/2009/11/16/using-yql-to-read-html-from-a-document-that-requires-post-data/).
+
 *CAUTION*: This is better considered a POC or temporal hack, rather than production-ready technique.
 Also, remember for security that all your traffic flows through Yahoo's server.
 
