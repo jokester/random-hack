@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>crossdomain-ajax-with-yql</title>
+
+</head>
+
+<body>
+    <p>See develop console for what this code is doing.</p>
+    <p>source: <a href="https://github.com/jokester/random-hack/tree/master/crossdomain-ajax-with-yql">jokester/</a></p>
+    <script src="yql-ajax.js"></script>
+    <script>
+        YQLAjax.getJSON("https://ipinfo.io/json/?param1=2&param2=b", true)
+            .then(ip => console.log("cross-domain response", ip))
+            .catch(err => console.error(err));
+    </script>
+</body>
+
+</html>

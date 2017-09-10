@@ -1,4 +1,6 @@
-# Random hacks
+# Random hack
+
+---
 
 Random hacks I found work, mostly about open-source packages / Web platform.
 
