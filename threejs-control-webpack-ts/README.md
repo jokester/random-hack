@@ -1,6 +1,9 @@
 # threejs-control-webpack-ts
 
-This example shows how to bundle `OrbitControls` inside `three.js` distribution (that is not exported as AMD/CommonJS/ES6/younameit module).
+This example shows how to bundle `OrbitControls` inside `three.js` distribution.
+
+(This control is quite useful, yet not exported as a (AMD | CommonJS | ES6 | younameit) module.
+See [this issue](https://github.com/mrdoob/three.js/issues/9562) for detail).
 
 ### How to build
 
