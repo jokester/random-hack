@@ -28,7 +28,7 @@ setTimeout(() => {
 
   drawPdf(doc);
   doc.end();
-});
+}, 20e3);
 
 /**
  * Draw something onto a PDFDocument.
